@@ -242,7 +242,7 @@ export default class SimpleMap extends Component<{}> {
             </Button>
           </Left>
           <Body>
-            <Title style={styles.title}>Simple Map</Title>
+            <Title style={styles.title}>Resoltz</Title>
           </Body>
           <Right>
             <Switch onValueChange={() => this.onToggleEnabled()} value={this.state.enabled} />
@@ -317,13 +317,13 @@ var styles = StyleSheet.create({
     backgroundColor: '#272727'
   },
   header: {
-    backgroundColor: '#fedd1e'
+    backgroundColor: '#ee7211' 
   },
   title: {
     color: '#000'
   },
   footer: {
-    backgroundColor: '#fedd1e',
+    backgroundColor: '#ee7211',
     paddingLeft: 10, 
     paddingRight: 10
   },

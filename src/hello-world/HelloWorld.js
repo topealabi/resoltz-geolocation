@@ -219,7 +219,7 @@ export default class HelloWorld extends Component<{}> {
             </Button>
           </Left>
           <Body>
-            <Title style={styles.title}>Hello World</Title>
+            <Title style={styles.title}>Resoltz</Title>
           </Body>
           <Right>
             <Switch onValueChange={() => this.onToggleEnabled()} value={this.state.enabled} />
@@ -264,7 +264,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#272727'
   },
   header: {
-    backgroundColor: '#fedd1e'
+    backgroundColor: '#ee7211'
   },
   title: {
     color: '#000'
@@ -289,7 +289,7 @@ const styles = StyleSheet.create({
     color: '#e6db74'
   },
   footer: {
-    backgroundColor: '#fedd1e',
+    backgroundColor: '#ee7211',
     paddingLeft: 10,
     paddingRight: 10
   },

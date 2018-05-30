@@ -31,7 +31,8 @@ PODS:
     - React/Core
     - React/fishhook
     - React/RCTBlob
-  - RNDeviceInfo (0.21.2)
+  - RNDeviceInfo (0.21.5):
+    - React
   - yoga (0.55.4.React)
 
 DEPENDENCIES:
@@ -52,20 +53,20 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   React:
-    :path: ../node_modules/react-native
+    :path: "../node_modules/react-native"
   react-native-maps:
-    :path: ../node_modules/react-native-maps
+    :path: "../node_modules/react-native-maps"
   RNDeviceInfo:
-    :path: ../node_modules/react-native-device-info
+    :path: "../node_modules/react-native-device-info"
   yoga:
-    :path: ../node_modules/react-native/ReactCommon/yoga/yoga.podspec
+    :path: "../node_modules/react-native/ReactCommon/yoga/yoga.podspec"
 
 SPEC CHECKSUMS:
-  React: 755b16d9a9387e856d4dce6528130c51e4d409b8
-  react-native-maps: fb06a43ce6884256097eec1dd69d23957b71df88
-  RNDeviceInfo: 82dab2a10d4df51cb9e08b4f22e4d46d29658be6
-  yoga: c3ce6137f85f60c93a834235d7f08e2b44a42eed
+  React: aa2040dbb6f317b95314968021bd2888816e03d5
+  react-native-maps: 066c2afcc89e18726377bcc685315f989ca22449
+  RNDeviceInfo: 568c5641057313b4912d08a7742ff0b2f753ed5c
+  yoga: a23273df0088bf7f2bb7e5d7b00044ea57a2a54a
 
 PODFILE CHECKSUM: 21e9c8a0925aa70e7a1e77f7f8a1b795f1308d87
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3
